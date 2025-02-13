@@ -1,3 +1,0 @@
-Name: Ricky Pilj
-Course: Bachelor Of Science In Information Technology
-Interests in programming: Web Development, Robotics
