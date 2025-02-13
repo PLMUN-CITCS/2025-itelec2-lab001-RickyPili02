@@ -1,4 +1,5 @@
-print("Hello world!")
-print("Name: Ricky Pili")
-print("Course: Bachelor Of Science In Information Technology")
-print("Interests in programming: Web Develiper,Robotics")
+print("Hello world!")  # Print "Hello world!"
+
+# Open and read the intro.txt file
+with open("intro.txt", "r") as file:
+    print(file.read().strip())  # Print the contents of intro.txt)
