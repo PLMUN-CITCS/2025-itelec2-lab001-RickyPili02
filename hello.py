@@ -1,5 +1,4 @@
-print("Hello world!")  # Print "Hello world!"
+print("Hello world!")  
 
-# Open and read the intro.txt file
-with open("intro.txt", "r") as file:
-    print(file.read().strip())  # Print the contents of intro.txt)
+with open("intro.txt", "r", encoding="utf-8") as file:
+    print(file.read().strip())  
